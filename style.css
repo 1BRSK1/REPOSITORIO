@@ -1,6 +1,6 @@
 *{
 margin: 0 auto;
-width: 100%;
+width: 100 %;
 box-sizing: border-box;
 font-family: sans-serif;
 }  
@@ -8,9 +8,9 @@ body{
 
 background-color: #181818;
 
-width: 100%;
+width: 100 %;
 
-height: 100vh;
+height: 100 vh;
 
 display: flex;
 
@@ -22,32 +22,32 @@ flex-direction: column;
 }
 .logo{
 
-max-width: 600px;
+max-width: 600 px;
 
-margin-bottom: 24px;
+margin-bottom: 24 px;
 }
 .container-input{
 
-max-width: 480px;
+max-width: 480 px;
 
-margin: 14px 0;
+margin: 14 px 0;
 }
 .container-input span {
 color: #FFF;
 
-font-size: 22px;
+font-size: 22 px;
 
 .slider {
 
-margin-top: 8px;
+margin-top: 8 px;
 
 -webkit-appearance: none;
 
-width: 100%;
+width: 100 %;
 
-height: 18px;
+height: 18 px;
 
-border-radius: 5px;
+border-radius: 5 px;
 
 background: #DFDFDF;
 
@@ -57,21 +57,118 @@ opacity: 0.7;
 }
 button-cta{
 
-height: 40px;
+height: 40 px;
 
-margin-top: 40px;
+margin-top: 40 px;
 
 background-color: #3EB72B;
 
 border:0;
 
-border-radius: 4px;
+border-radius: 4 px;
 
 color: #FFF;
 
-font-size: 20px;
+font-size: 20 px;
 
 font-weight: bold;
 
 cursor: pointer;
+}
+.container-password{
+
+max-width: 480 px;
+
+margin: 14 px 0; 
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+cursor: pointer;
+
+}
+
+.title{
+
+text-align: center;
+
+color: #FFF;
+
+font-size: 28 px;
+
+margin-top: 24 px;
+
+margin-bottom: 8 px;
+
+}
+
+.password{
+height: 60 px;
+
+background-color: rgba (0,0,0,0.40);
+
+border: 1 px solid #313131;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+color: #FFF;
+
+border-radius: 4 px;
+
+transition: transform 0.5 s;
+
+}
+
+password:hover{
+
+transform: scale (1.05);
+
+border-color: #FFF;
+
+}
+
+.hide{
+
+display: none; }
+
+.tooltip{
+
+color: #FFF;
+
+position: relative;
+
+top: 20 px;
+
+padding: 6 px 8 px;
+
+font-size: 16 px;
+
+border-radius: 6 px;
+
+background: rgb (15, 15, 15);
+
+opacity: 0;
+
+visibility: hidden;
+
+transition: all .5 s ease-in-out;
+
+text-align: center;
+
+}
+
+.container-password:hover .tooltip{
+
+bottom: 50 px;
+
+visibility: visible;
+
+opacity: 1;
+
 }
