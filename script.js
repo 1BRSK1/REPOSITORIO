@@ -1,6 +1,6 @@
-let slider Element = document.querySelector ("#slider") ; let button Element = document.querySelector("#button");
+let sliderElement = document.querySelector ("#slider") ; let button Element = document.querySelector("#button");
 
-let sizePassword = document.querySelector("#valor");
+let sizePassword = document.querySelector("#1");
 
 let password = document.querySelector("#password");
 
@@ -35,6 +35,4 @@ novaSenha = pass;
 }
 
 function copyPassword()
-alert("Senha copiada com sucesso!") navigator.clipboard.writeText(novaSenha);
-
-}
+alert("Senha copiada com sucesso!") navigator.clipboard.writeText(novaSenha);  }
