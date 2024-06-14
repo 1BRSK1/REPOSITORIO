@@ -2,7 +2,7 @@ let sliderElement = document.querySelector ("#slider") ;
 
 let buttonElement = document.querySelector("#button");
 
-let sizePassword = document.querySelector("#1");
+let sizePassword = document.querySelector("#valor");
 
 let password = document.querySelector("#password");
 
@@ -31,7 +31,9 @@ pass += charset.charAt(Math.floor(Math.random() * n));
 
 console.log(pass)
 
-container Password.classList.remove("hide"); password.innerHTML = pass;
+container Password.classList.remove("hide");
+
+password.innerHTML = pass;
 
 novaSenha = pass;
 
